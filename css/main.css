@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container__header {
+  max-width: 906px;
+  margin: 0 auto;
+}
+.container__header .header__nav {
+  margin: 71px 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 99px;
+}
+.container__header .header__nav .nav__link {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7D7D7D;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.container__header .header__nav .nav__link:hover {
+  color: #03A9F4;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.flex__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 127px;
+}
+.flex__container .card {
+  width: 420px;
+  padding-top: 21px;
+  padding-bottom: 94px;
+  list-style: none;
+}
+.flex__container .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform 200ms ease-out;
+  transition: -webkit-transform 200ms ease-out;
+  transition: transform 200ms ease-out;
+  transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+.flex__container .card-category {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 100px;
+  color: #B4AD9E;
+  padding-top: 62px;
+}
+.flex__container .card__heading {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #626262;
+  margin: 30px 0;
+  margin-bottom: 40px;
+}
+.flex__container .card__text {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #626262;
+}
+
+.container__footer {
+  text-align: center;
+  margin: 69px 506px;
+}
+.container__footer .button {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  background-color: #ffffff;
+  font-size: 14px;
+  width: 165px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.container__footer .button:hover {
+  -webkit-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.8);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #03A9F4;
+  -webkit-transition: -webkit-transform 200ms linear, -webkit-box-shadow 200ms linear 150ms;
+  transition: -webkit-transform 200ms linear, -webkit-box-shadow 200ms linear 150ms;
+  transition: transform 200ms linear, box-shadow 200ms linear 150ms;
+  transition: transform 200ms linear, box-shadow 200ms linear 150ms, -webkit-transform 200ms linear, -webkit-box-shadow 200ms linear 150ms;
+}/*# sourceMappingURL=main.css.map */

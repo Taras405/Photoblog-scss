@@ -1,0 +1,42 @@
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 127px;
+
+    .card {
+        width: 420px;
+        padding-top: 21px;
+        padding-bottom: 94px;
+        list-style: none;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: transform 200ms ease-out;
+        }
+    }
+
+    .card-category {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 14px;
+        font-weight: 100px;
+        color: #B4AD9E;
+        padding-top: 62px;
+
+    }
+
+    .card__heading {
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        color: #626262;
+        margin: 30px 0;
+        margin-bottom: 40px;
+
+    }
+
+    .card__text {
+        font-family: "Playfair Display", serif;
+        font-size: 14px;
+        color: #626262;
+    }
+}

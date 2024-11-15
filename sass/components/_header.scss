@@ -1,0 +1,29 @@
+.container__header {
+    max-width: 906px;
+    margin: 0 auto;
+
+    .header__nav {
+        margin: 71px 315px;
+        display: flex;
+        justify-content: center;
+        gap: 99px;
+
+        .nav__link {
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #7D7D7D;
+            text-decoration: none;
+            padding-bottom: 5px;
+
+            &:hover {
+                color: #03A9F4;
+                font-weight: 600;
+                font-size: 15px;
+                border: none;
+                box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.800);
+                transition: all 200ms linear;
+            }
+        }
+    }
+}

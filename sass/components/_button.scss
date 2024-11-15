@@ -1,0 +1,21 @@
+.container__footer {
+    text-align: center;
+    margin: 69px 506px;
+
+    .button {
+        font-family: "Playfair Display", serif;
+        color: #626262;
+        background-color: #ffffff;
+        font-size: 14px;
+        width: 165px;
+        height: 60px;
+        margin-bottom: 10px;
+
+        &:hover {
+            box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.800);
+            transform: scale(1.2);
+            color: #03A9F4;
+            transition: transform 200ms linear, box-shadow 200ms linear 150ms;
+        }
+    }
+}
