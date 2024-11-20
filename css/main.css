@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+.container__header .header__nav .nav__link {
+  font: 400 14px "Playfair Display", serif;
+  color: #7D7D7D;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
 .container__header {
   max-width: 906px;
   margin: 0 auto;
@@ -18,14 +25,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 99px;
-}
-.container__header .header__nav .nav__link {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #7D7D7D;
-  text-decoration: none;
-  padding-bottom: 5px;
 }
 .container__header .header__nav .nav__link:hover {
   color: #03A9F4;

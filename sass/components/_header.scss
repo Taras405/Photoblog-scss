@@ -9,13 +9,7 @@
         gap: 99px;
 
         .nav__link {
-            font-family: "Playfair Display", serif;
-            font-weight: 400;
-            font-size: 14px;
-            color: #7D7D7D;
-            text-decoration: none;
-            padding-bottom: 5px;
-
+            @extend %header__link;
             &:hover {
                 color: #03A9F4;
                 font-weight: 600;
