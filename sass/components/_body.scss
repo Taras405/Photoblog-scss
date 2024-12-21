@@ -16,18 +16,14 @@
         }
     }
 
-    .card-category {
-        font-family: "Ubuntu", sans-serif;
-        font-size: 14px;
-        font-weight: 100px;
+    .card__category {
+        font: 300 14px "Ubuntu", sans-serif;
         color: #B4AD9E;
         padding-top: 62px;
-
     }
 
     .card__heading {
-        font-family: "Playfair Display", serif;
-        font-size: 30px;
+        font: 400 30px "Playfair Display", sans-serif;
         color: #626262;
         margin: 30px 0;
         margin-bottom: 40px;
@@ -35,8 +31,7 @@
     }
 
     .card__text {
-        font-family: "Playfair Display", serif;
-        font-size: 14px;
+        font: 400 14px "Playfair Display", sans-serif;
         color: #626262;
     }
 }
