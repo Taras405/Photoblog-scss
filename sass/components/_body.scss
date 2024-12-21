@@ -27,11 +27,94 @@
         color: #626262;
         margin: 30px 0;
         margin-bottom: 40px;
-
     }
 
     .card__text {
         font: 400 14px "Playfair Display", sans-serif;
         color: #626262;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .flex__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        .card {
+            width: 100%;
+            padding: 11px 0;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            padding: none;
+            &:hover {
+                transform: none;
+            }
+            picture img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        
+        .card__category {
+            font: 300 14px "Ubuntu", sans-serif;
+            color: #B4AD9E;
+            padding-top: 31px;
+            text-align: center;
+        }
+        
+        .card__heading {
+            font: 400 30px "Playfair Display", sans-serif;
+            color: #626262;
+            margin: 15px 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .card__text {
+            font: 400 14px "Playfair Display", sans-serif;
+            color: #626262;
+            width: 420px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .flex__container {
+        flex-flow: row wrap;
+        align-items: center;
+        gap: 0px !important;
+        
+        .card {
+            width: 100%;
+            padding: 11px 0;
+            margin: 15px;
+            &:hover {
+                transform: none;
+            }
+            picture img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        
+        .card__category {
+            font: 300 14px "Ubuntu", sans-serif;
+            color: #B4AD9E;
+            padding-top: 31px;
+        }
+        
+        .card__heading {
+            font: 400 30px "Playfair Display", sans-serif;
+            color: #626262;
+            margin: 15px 0;
+            margin-bottom: 20px;
+        }
+        
+        .card__text {
+            font: 400 14px "Playfair Display", sans-serif;
+            color: #626262;
+        }
     }
 }
